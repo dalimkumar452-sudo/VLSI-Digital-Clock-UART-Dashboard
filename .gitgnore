@@ -1,0 +1,27 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+
+# Simulation Data & Waveform Dumps (EDA Playground / Icarus Verilog outputs)
+*.vcd
+*.out
+dump.vcd
+a.out
+
+# FPGA Tool Junk (Vivado / Quartus logs and temporary files)
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+.Xil/
